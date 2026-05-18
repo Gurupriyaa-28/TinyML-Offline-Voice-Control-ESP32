@@ -330,9 +330,104 @@ The confusion matrix indicates reliable classification performance across all pr
 
 The serial monitor displays:
 
+![Output](Result/output.png)
+
 Audio peak levels
+
 Confidence scores
+
 Noise levels
+
 Prediction results
+
 Output activation status
+
+💻 Software & Tools Used
+
+| Software / Tool          | Purpose               |
+| ------------------------ | --------------------- |
+| Arduino IDE              | Firmware Development  |
+| Edge Impulse             | TinyML Model Training |
+| TensorFlow Lite Micro    | Embedded ML Inference |
+| ESP32 Board Package      | ESP32 Support         |
+| Adafruit SSD1306 Library | OLED Display Handling |
+| I2S Driver Libraries     | Audio Communication   |
+
+🌍 Applications
+🏠 Smart Home Automation
+
+Control lights, fans, and appliances using offline voice commands.
+
+🏥 Healthcare Assistive Systems
+
+Assist elderly and differently-abled users through hands-free interaction.
+
+🏭 Industrial Automation
+
+Enable safe and efficient hands-free machine control.
+
+🌱 Agricultural IoT
+
+Support irrigation and monitoring systems in remote agricultural environments.
+
+🚗 Automotive Systems
+
+Integrate offline voice interfaces into vehicle infotainment systems.
+
+🎓 Educational Embedded AI Kits
+
+Serve as a practical educational example of TinyML deployment.
+
+🔮 Future Scope
+
+Potential future improvements include:
+
+Multi-keyword recognition
+
+Multi-language support
+
+WiFi and MQTT integration
+
+Smart home ecosystem integration
+
+Ultra-low-power optimization
+
+Sensor fusion with gesture/touch inputs
+
+Smart city applications
+
+🎬 Demonstration
+
+A demonstration video is available in:
+
+result/demo.mp4
+
+The demo showcases:
+
+✅ Voice Command Detection
+
+✅ LED Activation
+
+✅ OLED Feedback
+
+✅ Real-Time TinyML Inference
+
+✅ Conclusion
+
+This project successfully demonstrates the implementation of an Adaptive Noise-Robust Offline Voice-Controlled Embedded System using TinyML on ESP32 hardware.
+
+The integration of:
+
+Adaptive Noise Filtering
+
+MFCC Feature Extraction
+
+TinyML Keyword Spotting
+
+Embedded Edge Inference
+
+enables efficient, real-time, and privacy-preserving voice interaction on low-power embedded devices.
+
+The project validates the practicality of deploying intelligent voice interfaces directly on edge hardware without cloud dependency, highlighting the growing potential of TinyML in modern embedded and IoT applications.
+
 
