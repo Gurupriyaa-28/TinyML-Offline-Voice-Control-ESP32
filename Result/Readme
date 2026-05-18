@@ -1,1 +1,77 @@
+# Smart AI-Based Vision System using ESP32 & Edge Impulse
 
+## Overview
+
+This project is an AI-powered embedded vision system built using ESP32, Edge Impulse, and TensorFlow Lite. The system is capable of capturing sensor or image-based input, processing it using machine learning models, and performing intelligent real-time predictions on edge devices.
+
+The project combines embedded systems, machine learning, and IoT technologies to create a lightweight and efficient AI solution suitable for real-world applications.
+
+---
+
+# Features
+
+✨ Real-time AI inference on ESP32
+
+✨ Edge Impulse model integration
+
+✨ TensorFlow Lite support
+
+✨ Lightweight embedded deployment 
+
+✨ Sensor/Image data processing  
+
+✨ Optimized for edge computing 
+
+✨ Arduino IDE compatible  
+
+✨ Cross-platform development support  
+
+
+---
+
+# Technologies Used
+
+| Technology | Purpose |
+
+|------------|---------|
+
+| Python | Data processing & utilities |
+
+| ESP32 | Embedded hardware platform |
+
+| Arduino IDE | Firmware development |
+
+| Edge Impulse | ML model training |
+
+| TensorFlow Lite | Edge AI inference |
+
+| Jupyter Notebook | Model experimentation |
+
+| VS Code | Development environment |
+
+---
+
+# Project Structure
+
+```bash
+├── data/                     # Dataset files
+
+├── datasets/                 # Training datasets
+
+├── edge-impulse-sdk/         # Edge Impulse generated SDK
+
+├── models/                   # Trained ML models
+
+├── notebooks/                # Jupyter notebooks
+
+├── src/                      # Source code
+
+├── build/                    # Build files
+
+├── dist/                     # Distribution files
+
+├── README.md
+
+├── requirements.txt
+
+└── .gitignore
